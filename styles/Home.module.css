@@ -1,0 +1,30 @@
+.main {
+  padding: 24px
+}
+
+.header {
+  display: flex;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchGroup {
+  display: flex;
+}
+
+.filterContainer {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filterGroup {
+  display: flex;
+}
+
+.content {
+  margin-top: 24px;
+}
