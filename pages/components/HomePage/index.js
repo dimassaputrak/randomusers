@@ -28,33 +28,24 @@ const HomePage = () => {
     {
       title: 'Username',
       dataIndex: 'login',
-      key: 'login',
       render: (login) => login.username
     },
     {
       title: 'Name',
       dataIndex: 'name',
-      key: 'name',
-      sorter: true,
       render: (name) => `${name.first} ${name.last}` 
     },
     {
       title: 'Email',
       dataIndex: 'email',
-      key: 'email',
-      sorter: true,
     },
     {
       title: 'Gender',
       dataIndex: 'gender',
-      key: 'gender',
-      sorter: true,
     },
     {
       title: 'Register Date',
       dataIndex: 'registered',
-      key: 'registered',
-      sorter: true,
       render: (registered) => moment(registered.date).format('DD:MM:YYYY hh:mm')
     },
   ];
