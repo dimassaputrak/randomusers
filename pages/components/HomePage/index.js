@@ -91,7 +91,7 @@ const HomePage = () => {
       </div>
     </div>  
   )
-    console.log(tableData)
+
   return (
     <>
       <div className={styles.header}>
